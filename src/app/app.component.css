@@ -28,4 +28,5 @@ input, label {
     border: 1px;
     border-radius: .5rem;
     box-sizing: border-box;
+    z-index: 0;
 }
