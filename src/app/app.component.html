@@ -16,39 +16,41 @@
 </head>
 
 <body>
-  <section class="vh-100">
+ 
+  <section class="vh-100"> 
     <div class="container py-5 h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col col-xl-5">
-          <div class="card" style="border-style: solid;">
-            <div class="row g-0">
-              <div class="d-flex align-items-center">
-                <div class="card-body p-4 p-lg-5 text-black">
-                  <form>
-                    <h2 class="header ml-auto" style="margin-left: 1px; margin-right: 1px;">LOGIN</h2>
-                    <div class="username">
-                      <label for="User_Name">Username:</label>
-                      <input name="User_Name" id="User_Name" type="text" />
+     <div class="row d-flex justify-content-center align-items-center h-100">
+       <div class="col-xl-5 ">
+         <div class="card" style="border-style: solid;">
+          <div class="card-header mb-4" style="text-align: center;font-weight: bold;background-color: rgba(182, 192, 168, 0.801);">LOGIN</div>
+          <div class="card-body">
+            <form>
+               <div class="form-group mb-5 row">
+                  <label for="inputUsername" class="col-md-3 col-form-label text-md" style="font-weight: bold;">Username:</label>
+                  <div class="col-md-8">
+                     <input type="text" class="form-control" name="inputUsername" id="inputUsername" required autofocus>
                     </div>
-              
-                    <div class="password">
-                      <label for="User_Name">Password: </label>
-                      <input type="password" id="formexample1"/>
-                    </div>
-                    
-                    <div class="Login_Button">
-                    <button class="Login_Button" type="submit" style="background-color:blueviolet">Login</button>
-                    </div>
-
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                  </div>
+  
+ 
+  <div class="form-group mb-5 row">
+  <label for="inputPassword" class="col-md-3 col-form-label text-md" style="font-weight: bold;">Password:</label>
+  <div class="col-md-8">
+    <input type="password" name="inputPassword" class="form-control" id="inputPassword" required>
+  </div>
+ </div>
+  <div class="col-md-6 offset-md-3 mb-3">
+     <button class="btn btn-primary btn-block" routerLink="/deskboard" type="submit" style="border-radius: 1rem;">Login</button>
+     </div>
+     </form>
+     </div>
     </div>
-  </section>
+  </div>
+   </div>
+   </div>
+    </section>
+  
+  
 </body>
 
 </html>
